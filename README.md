@@ -9,3 +9,8 @@
 
 ### Comando 3
 ```python main.py```
+
+
+## Créditos
+
+Açucena Pereira, Cauê Matos, Samuel Machado
