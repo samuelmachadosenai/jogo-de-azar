@@ -1,7 +1,7 @@
 ## Comandos de execução
 
 
-## 1
+### 1
 git clone ```https://github.com/samuelmachadosenai/jogo-de-azar.git```
 
 ## 2
