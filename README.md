@@ -20,7 +20,7 @@ O jogo segue nesse ciclo: apostar, girar, ganhar ou perder. Isso continua até q
 
 
   
-  
+
 ## Comandos de Execução  
   
 
@@ -33,6 +33,14 @@ O jogo segue nesse ciclo: apostar, girar, ganhar ou perder. Isso continua até q
 ### Comando 3
 ```python main.py```
   
+    
+      
+        
+## Resultado Esperado
+
+Jogo funcionando perfeitamente.
+
+![Resultado](results.png)
     
       
         
