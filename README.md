@@ -5,6 +5,10 @@ O jogador começa com **R\$100**. Antes de cada rodada, ele escolhe um valor par
 Depois da aposta, a roleta é girada. Ela traz um número aleatório de **1 a 5**, mas o que realmente importa é o desfecho: **ganhar ou perder**. O resultado é puramente aleatório. Se ganhar, o valor apostado é somado ao saldo; se perder, é descontado.
 
 O jogo segue nesse ciclo: apostar, girar, ganhar ou perder. Isso continua até que o saldo do jogador chegue a **zero**, encerrando a partida.
+  
+    
+      
+        
 
 ## Fluxograma
 
@@ -15,9 +19,10 @@ O jogo segue nesse ciclo: apostar, girar, ganhar ou perder. Isso continua até q
 
 
 
-
-## Comandos de Execução
-
+  
+  
+## Comandos de Execução  
+  
 
 ### Comando 1
 ```git clone https://github.com/samuelmachadosenai/jogo-de-azar.git```
@@ -27,12 +32,11 @@ O jogo segue nesse ciclo: apostar, girar, ganhar ou perder. Isso continua até q
 
 ### Comando 3
 ```python main.py```
-
-
-
-
-
-
+  
+    
+      
+        
+          
 
 ## Créditos
 
