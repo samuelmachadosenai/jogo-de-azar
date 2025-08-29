@@ -6,10 +6,9 @@ Depois da aposta, a roleta é girada. Ela traz um número aleatório de **1 a 5*
 
 O jogo segue nesse ciclo: apostar, girar, ganhar ou perder. Isso continua até que o saldo do jogador chegue a **zero**, encerrando a partida.
 
+## Fluxograma
 
-
-
-
+![Fluxograma](Fluxograma.jpeg)
 
 
 
@@ -28,6 +27,11 @@ O jogo segue nesse ciclo: apostar, girar, ganhar ou perder. Isso continua até q
 
 ### Comando 3
 ```python main.py```
+
+
+
+
+
 
 
 ## Créditos
