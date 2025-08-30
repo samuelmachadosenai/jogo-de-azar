@@ -1,4 +1,4 @@
-## Jogo da Roleta Par/ímpar
+## Jogo da Roleta Par/Ímpar
 
 ## Funcionamento do Jogo
 
