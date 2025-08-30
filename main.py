@@ -2,13 +2,14 @@ import time
 import random 
 
 saldo = 100
-numero = (1, 2, 3, 4, 5)
+numero = (1, 2, 3, 4, 5,6,7,8,9,10,11,11,13,14,15)
 repeticoes = 10
 aposta_minima = 0.40  
 
 print("Bem-vindo à roleta!")
 
 try:
+    chance_mais_impar = 1
     while True:
         print(f"\nSaldo atual é: R${saldo}")  
 
@@ -35,12 +36,12 @@ try:
 
         resultado = random.choice([True, False]) 
 
-        if resultado:
-            saldo += aposta  
-            print(f"Parabéns, você ganhou! Seu novo saldo é: R${saldo}")
+        if numero_girado %2 == 0:
+            saldo += aposta
+            print(f"parabens, caiu um numero par ({numero_girado}).voce ganhou! seu novo saldo é: R${saldo}")
         else:
-            saldo -= aposta 
-            print(f"Você perdeu. Seu novo saldo é: R${saldo}")
+          saldo -= aposta
+          print(f"caiu um numero ({numero_girado}).voce perdeu. seu novo saldo é:R${saldo} ")
 
         
         if saldo <= 0:
@@ -50,4 +51,4 @@ try:
         time.sleep(2)
 
 except:
-    print(f"Ocorreu um erro: {e}")
+     print(f"Ocorreu um erro")
