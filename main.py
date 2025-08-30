@@ -6,7 +6,8 @@ numero = (1, 2, 3, 4, 5,6,7,8,9,10,11,11,13,14,15)
 repeticoes = 10
 aposta_minima = 0.40  
 
-print("Bem-vindo à roleta!")
+print("Bem-vindo ao roda-roda impar par!!! ")
+print("se cair par você ganha, DINHEIRO FACIL!!! 50/50 de chance de ganho.")
 
 try:
     chance_mais_impar = 1
@@ -41,7 +42,7 @@ try:
             print(f"parabens, caiu um numero par ({numero_girado}).voce ganhou! seu novo saldo é: R${saldo}")
         else:
           saldo -= aposta
-          print(f"caiu um numero ({numero_girado}).voce perdeu. seu novo saldo é:R${saldo} ")
+          print(f"caiu um numero ({numero_girado}). seu novo saldo é:R${saldo} ")
 
         
         if saldo <= 0:
