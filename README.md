@@ -1,11 +1,16 @@
+## Jogo da Roleta Par/ímpar
+
 ## Funcionamento do Jogo
 
-O jogador começa com **R\$100**. Antes de cada rodada, ele escolhe um valor para apostar, respeitando a regra da **aposta mínima de R\$0,40**. Se tentar apostar mais do que tem em saldo, a jogada não acontece.
+O jogador começa com R$100. Antes de cada rodada, ele define quanto deseja apostar, sempre respeitando a aposta mínima de R$0,40. Se tentar apostar mais do que tem disponível no saldo, a jogada não acontece.
+Depois da aposta, a roleta é girada. Ela gera aleatoriamente um número entre 1 e 15.
 
-Depois da aposta, a roleta é girada. Ela traz um número aleatório de **1 a 5**, mas o que realmente importa é o desfecho: **ganhar ou perder**. O resultado é puramente aleatório. Se ganhar, o valor apostado é somado ao saldo; se perder, é descontado.
+Se o número for par, o jogador vence a rodada e o valor apostado é adicionado ao saldo.
 
-O jogo segue nesse ciclo: apostar, girar, ganhar ou perder. Isso continua até que o saldo do jogador chegue a **zero**, encerrando a partida.
-  
+Se o número for ímpar, o jogador perde a rodada e o valor apostado é descontado do saldo.
+
+O ciclo do jogo é simples e contínuo: apostar → girar → verificar resultado → atualizar saldo.
+A partida só termina quando o saldo do jogador chega a zero.
     
       
         
